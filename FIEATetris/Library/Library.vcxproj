@@ -106,8 +106,8 @@ xcopy /R /Y "$(SolutionDir)external\Expat\lib\expat.pdb" "$(SolutionDir)Library\
       <AdditionalDependencies>Expat.lib</AdditionalDependencies>
     </Lib>
     <PreLinkEvent>
-      <Command>xcopy /R /Y "$(SolutionDir)..\external\Expat\lib\expatd.pdb" "$(SolutionDir)..\source\Library\bin\Win32\Debug\"
-xcopy /R /Y "$(SolutionDir)..\external\Expat\lib\expat.pdb" "$(SolutionDir)..\source\Library\bin\Win32\Release\"
+      <Command>xcopy /R /Y "$(SolutionDir)external\Expat\lib\expatd.pdb" "$(SolutionDir)Library\bin\Win32\Debug\"
+xcopy /R /Y "$(SolutionDir)external\Expat\lib\expat.pdb" "$(SolutionDir)Library\bin\Win32\Release\"
 </Command>
     </PreLinkEvent>
   </ItemDefinitionGroup>
